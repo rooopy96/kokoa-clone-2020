@@ -1,0 +1,28 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("variable.css");
+
+/* Components */
+@import url("components/status-bar.css");
+@import url("components/nav.css");
+@import url("components/header__screen.css");
+@import url("components/user-components.css");
+@import url("components/badge.css");
+@import url("components/icon-row.css");
+@import url("components/message.css");
+@import url("components/reply.css");
+@import url("components/no-mobile.css");
+
+/* Screens */
+@import url("screens/login.css");
+@import url("screens/friends.css");
+@import url("screens/find.css");
+@import url("screens/more.css");
+@import url("screens/settings.css");
+@import url("screens/chat.css");
+
+body {
+	font-family: "Open Sans", sans-serif;
+	height: 1000vh;
+}
+

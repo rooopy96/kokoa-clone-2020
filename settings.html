@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Welcome kokoa - Settings</title>
+</head>
+<body>
+	<div class="status-bar">
+		<div class="status-bar__column">
+			<span>No Service</span>
+			<i class="fas fa-wifi"></i>
+		</div>
+		<div class="status-bar__column">
+			<span>
+				<script>
+					let hour = new Date().getHours();
+					let minute = new Date().getMinutes();
+
+					document.write(hour + ':' + minute);
+				</script>
+			</span>
+		</div>
+		<div class="status-bar__column">
+			<span>110%</span>
+			<i class="fas fa-battery-full fa-2x"></i>
+			<i class="fas fa-bolt"></i>
+		</div>
+	</div>
+	
+	<header class="header__screen">
+		<div class="header__settings-back">
+			<a href="more.html">
+				<i class="fas fa-angle-left fa-2x"></i>
+			</a>
+		</div>
+			
+		<div class="header__screen-title">
+			Settings
+		</div>
+		<div class="header__screen-btn">
+			<a href="#">
+				<i class="fas fa-search fa-lg fa-2x"></i>
+			</a>
+		</div>
+	</header>
+
+	<main class="friends-main settings-main">
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div>
+					<i class="fas fa-volume-down"></i>
+					<span class="settings__list-title">Notices</span>
+				</div>
+				<div>
+				</div>
+			</div>
+		</div>
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div>
+					<i class="fas fa-flask"></i>
+					<span class="settings__list-title">Kakao Lab</span>
+				</div>
+				<div>
+				</div>
+			</div>
+		</div>
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div>
+					<i class="fas fa-info-circle"></i>
+					<span class="settings__list-title">Version</span>
+				</div>
+				<div class="settings__list-subtitle">
+					Latest Version
+				</div>
+			</div>
+		</div>
+		<div class="settings__list-line"></div>
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div>
+					<i class="fas fa-lock"></i>
+					<span class="settings__list-title">Privacy</span>
+				</div>
+				<div class="settings__list-subtitle">
+					
+				</div>
+			</div>
+		</div>
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div>
+					<i class="far fa-bell"></i>
+					<span class="settings__list-title">Notifications</span>
+				</div>
+				<div class="settings__list-subtitle">
+					
+				</div>
+			</div>
+		</div>
+		<div class="settings__list">
+			<div class="settings__list-column">
+				<div class="settings__list-column1">
+					<i class="far fa-sun"></i>
+					<span class="settings__list-title">Display</span>
+					<span class="new">N</span>
+				</div>
+				<div class="settings__list-subtitle">
+					
+				</div>
+			</div>
+		</div>
+
+	
+	</main>
+ 
+	<div class="no-mobile">
+		<span>Your screen is too big ㅠㅠ</span>
+	</div>
+	
+	<nav class="nav">
+		<ul class="nav__btn">
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="friends.html">
+					<i class="far fa-user fa-2x"></i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="chats.html">
+					<i class="far fa-comment fa-2x">
+					</i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="find.html">
+					<i class="fas fa-search fa-2x"></i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="more.html">
+					<i class="fas fa-ellipsis-h fa-2x"></i>
+					<span class="nav-alarm"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+</body>
+</html>

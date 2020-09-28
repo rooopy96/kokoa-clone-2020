@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Welcome kokoa - Find</title>
+</head>
+<body>
+	<div class="status-bar">
+		<div class="status-bar__column">
+			<span>No Service</span>
+			<i class="fas fa-wifi"></i>
+		</div>
+		<div class="status-bar__column">
+			<span>
+				<script>
+					let hour = new Date().getHours();
+					let minute = new Date().getMinutes();
+
+					document.write(hour + ':' + minute);
+				</script>
+			</span>
+		</div>
+		<div class="status-bar__column">
+			<span>110%</span>
+			<i class="fas fa-battery-full fa-2x"></i>
+			<i class="fas fa-bolt"></i>
+		</div>
+	</div>
+	
+	<header class="header__screen">
+		<div class="header__screen-title">
+			Find
+		</div>
+		<div class="header__screen-btn">
+			<a href="#">
+				<i class="fas fa-search fa-lg"></i>
+			</a>
+			<a href="#">
+				<i class="fas fa-cog fa-lg">
+				</i>
+				<span class="header-alarm"></span>
+			</a>
+			
+		</div>
+	</header>
+
+	<main class="friends-main">
+		<div class="icon-row">
+			<a href="#.html">
+				<i class="fas fa-qrcode fa-2x"></i>
+				<div>
+					QR Code
+				</div>
+			</a>
+			<a href="#.html">
+				<i class="far fa-address-book fa-2x"></i>
+				<div>
+					Add by Contacts
+				</div>
+			</a>
+			<a href="#.html">
+				<i class="fas fa-user-plus fa-2x"></i>
+				<div>
+					Add by ID
+				</div>
+			</a>
+			<a href="#.html">
+				<i class="far fa-envelope fa-2x"></i>
+				<div>
+					Invite
+				</div>
+			</a>
+		</div>
+
+		<div>
+			<div class="friends__channel">
+				Recommended Friends
+			</div>
+			<div class=find__recommended-friends>
+				You have no recommended friends.
+			</div>
+		</div>
+
+		<div class="find__bottom">
+			<div class="friends__channel">
+				Open Chat
+				<div>Go to Openchat Home</div>
+			</div>
+			<div class="find__openchat">
+				<div class="find__openchat-column">
+					<div class="find__openchat-title">#BTS</div>
+					<div class="find__openchat-subtitle">#BTS#ARMY#FRIENDS</div>
+					<div class="find__openchat-members">
+						<span><img class="img-xxs" src="../Images/sexy1.jpg" alt="hotgirl"></span>	802 members | <span
+						class="active-color">Active</span></div>
+				</div>
+				<div class="find__openchat-column">
+					<img class="openchat-img" src="../Images/bts1.jpg" alt="bts icon">
+					<div class="find__openchat-heart">
+						<i class="fas fa-heart fa-xs"></i>
+						<span>326</span>
+					</div>
+				</div>
+			</div>
+			<div class="find__openchat">
+				<div class="find__openchat-column">
+					<div class="find__openchat-title">Bts Gang~</div>
+					<div class="find__openchat-subtitle">#engilishonly #ipurpleyou #jimin #taeta...</div>
+					<div class="find__openchat-members">
+						<span><img class="img-xxs" src="../Images/puppy3.jpg" alt="hotdog"></span>	299 members | <span
+						class="active-color">Active</span></div>
+				</div>
+				<div class="find__openchat-column">
+					<img class="openchat-img" src="../Images/bts2.jpg" alt="bts icon">
+					<div class="find__openchat-heart">
+						<i class="fas fa-heart fa-xs"></i>
+						<span>215</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</main>
+
+	<div class="no-mobile">
+		<span>Your screen is too big ㅠㅠ</span>
+	</div>
+
+	
+	<nav class="nav">
+		<ul class="nav__btn">
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="friends.html">
+					<i class="far fa-user fa-2x"></i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="chats.html">
+					<i class="far fa-comment fa-2x">
+					</i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="find.html">
+					<i class="fas fa-search fa-2x"></i>
+				</a>
+			</li>
+			<li class="nav__btn-link">
+				<a class="nav__btn-a" href="more.html">
+					<i class="fas fa-ellipsis-h fa-2x"></i>
+					<span class="nav-alarm"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+</body>
+</html>

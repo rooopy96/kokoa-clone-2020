@@ -1,0 +1,82 @@
+.reply {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 7px 20px;
+	box-sizing: border-box;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.reply .reply__column:first-child {
+	width: 10%;
+}
+
+.reply .reply__column:last-child {
+	width: 90%;
+	position: relative;
+}
+
+.reply input {
+	height: 30px;
+	width: 95%;
+	border: var(--border);
+	border-radius: 25px;
+	padding: 12px;
+	transition: all 0.3s ease-in-out;
+}
+
+.reply__column:last-child .fa-smile-wink,
+.reply__column:last-child button {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	right: 3px;
+}
+
+.reply__column:last-child .fa-smile-wink {
+	right: 65px;
+	top: 11px;
+	opacity: 0.6;
+}
+
+.reply__column:first-child {
+	opacity: 0.6;
+}
+
+.reply__column:last-child button {
+	background-color: var(--yellow);
+	border: none;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.reply__column:last-child button:focus,
+.reply__column:last-child button:active {
+	outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply .reply__column .fa-smile-wink,
+.reply .reply__column button {
+	transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply__column .fa-smile-wink,
+.reply:focus-within .reply__column button {
+	opacity: 0;
+}
+
+
+.reply:focus-within input {
+	width: 90vw;
+	transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+	transform: translateY(80px);
+}

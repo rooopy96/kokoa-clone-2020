@@ -1,0 +1,38 @@
+.header__screen {
+	position: relative;
+	top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__screen-title{ 
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 20px;
+}
+
+.header__screen-btn {
+	position: relative;
+}
+
+.header__screen-btn a {
+	padding-right: 25px;
+}
+
+.header__settings-back {
+	position: relative;
+	left: 30px;
+}
+
+@keyframes spinCog {
+	from {
+		transform: rotateZ(360deg);
+	}
+	to {
+
+	}
+}
+
+.fa-cog:hover {
+	animation: spinCog 1s linear infinite;
+}

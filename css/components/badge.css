@@ -1,0 +1,27 @@
+.badge {
+	background-color: tomato;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+.header-alarm {
+	background-color: tomato;
+	width: 5px;
+	height: 5px;
+	border-radius: 2.5px;
+	position: absolute;
+	top: -5px;
+}
+
+.nav-alarm {
+	background-color: tomato;
+	width: 5px;
+	height: 5px;
+	border-radius: 2.5px;
+	position: absolute;
+	top: 1px;
+	right: -4px;
+}

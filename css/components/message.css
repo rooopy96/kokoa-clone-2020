@@ -1,0 +1,83 @@
+.message-row {
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.message-row img {
+	margin-right: 5px;
+}
+
+.message__author {
+	color: #4B545C;
+	font-size: 16px;
+}
+
+.message__time {
+	color: #4B545C;
+}
+
+.message__info {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 5px;
+}
+
+.message__content {
+	background-color: white;
+	padding: 13px;
+	border-radius: 18px;
+	border-top-left-radius: 0px;
+	margin-right: 5px;
+	font-size: 18px;
+
+}
+
+.message__time {
+	font-size: 13px;
+}
+
+.message-send {
+	justify-content: flex-end;
+}
+
+.message-send .message__content{
+	background-color: #FEE501;
+	margin-left: 5px;
+	border-radius: 18px;
+	border-top-right-radius: 0px;
+}
+
+.message-send .message__info {
+	flex-direction: row-reverse;
+}
+
+@keyframes messageAppearCome{
+	from {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+.message-come {
+	animation: messageAppearCome 1s ease-in-out;
+}
+
+@keyframes messageAppearSend{
+	from {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+.message-send {
+	animation: messageAppearSend 1s ease-in-out;
+}
